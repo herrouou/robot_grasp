@@ -41,6 +41,10 @@ export MUJOCO_DIR=~/.mujoco/mujoco-3.3.3
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$MUJOCO_DIR/lib
 export LIBRARY_PATH=$LIBRARY_PATH:$MUJOCO_DIR/lib
 ```
+clone the repo into the `src` file
+```
+git clone -b mujoco-3.3.3 https://github.com/ubi-agni/mujoco_ros_pkgs.git
+```
 
 Then go to the catkin_ws and do
 ```
