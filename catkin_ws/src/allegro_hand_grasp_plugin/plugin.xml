@@ -1,0 +1,7 @@
+<library path="lib/liballegro_hand_grasp_plugin">
+  <class name="allegro_hand_grasp_plugin/AllegroGraspPlugin"
+         type="allegro_hand_grasp_plugin::AllegroGraspPlugin"
+         base_class_type="mujoco_ros::MujocoPlugin">
+    <description>Allegro Hand grasping cylinder plugin</description>
+  </class>
+</library>

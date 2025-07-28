@@ -1,0 +1,13 @@
+<launch>
+  <param name="/use_sim_time" value="true"/>
+  <arg name="model_file" default="$(find allegro_hand_grasp_plugin)/models/scene_right_cylinder.xml"/>
+  <arg name="mujoco_plugin_config" default="$(find allegro_hand_grasp_plugin)/config/plugin_config.yaml"/>
+  
+  <include file="$(find mujoco_ros)/launch/launch_server.launch">
+    <arg name="modelfile" value="$(arg model_file)" />
+    <arg name="mujoco_plugin_config" value="$(arg mujoco_plugin_config)" />
+    <arg name="use_sim_time" value="true" />
+    <arg name="realtime" value="1.0" />
+    <arg name="headless" value="false" />
+  </include>
+</launch>

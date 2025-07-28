@@ -1,0 +1,2 @@
+MujocoPlugins:
+  - type: allegro_hand_grasp_plugin/AllegroGraspPlugin
